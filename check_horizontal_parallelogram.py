@@ -38,7 +38,7 @@ def check_horizontal_parallelogram(point_coords, par_coords):
 		else:
 			# if not, point is inside the rectangle!
 			return True
-	# if we get there, we know the parallelogram is not a rectangle
+	# if we get here, we know the parallelogram is not a rectangle
 
 	#get the slope of the left and right sides
 	slope = get_slope(ul, bl)
